@@ -1,0 +1,45 @@
+# -- Python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+*.env
+
+# SQLite database
+*.db
+*.sqlite
+*.sqlite3
+
+# -- Node / Frontend ----------------------------------------------------------
+node_modules/
+dist/
+.cache/
+*.tsbuildinfo
+
+# -- Logs & runtime -----------------------------------------------------------
+*.log
+uvicorn.log
+uvicorn_err.log
+
+# -- OS -----------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -- IDE ----------------------------------------------------------------------
+.vscode/
+.idea/
+*.suo
+*.user
